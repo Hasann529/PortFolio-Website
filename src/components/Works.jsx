@@ -58,7 +58,7 @@ const Works = () => {
           {technologies.map((technology,i) => (
             <motion.div key={i}  initial={{  scale: 0, y:-80 , x: i%2===0 ? 120 : -120 }}
              whileInView={{  scale: 1, y:0 , x:0 }}
-              transition={{ duration: 0.75, delay: i * 0.3 }}
+              transition={{ duration: 0.75, delay: i * 0.05 }}
               viewport={{ once: true }}>
             <img
               src={technology.icon}

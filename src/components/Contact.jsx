@@ -60,6 +60,7 @@ const Contact = () => {
               type="text"
               placeholder="What's your name?"
               value={name}
+              required
               onChange={(e) => setName(e.target.value)}
             />
           </div>
@@ -69,6 +70,7 @@ const Contact = () => {
               type="email"
               placeholder="What's your email?"
               value={email}
+              required
               onChange={(e) => setEmail(e.target.value)}
             />
           </div>

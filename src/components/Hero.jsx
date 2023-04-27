@@ -36,15 +36,6 @@ const Hero = () => {
           animate={{ opacity: 1 }}
           transition={{ duration: 1.5 }}
         />
-        {/* <motion.a
-          href="./HasanResume.pdf"
-          download
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ duration: 1.5 }}
-        >
-          Resume
-        </motion.a> */}
       </div>
       <a href="#about" className="hero-scroll">
         <motion.div

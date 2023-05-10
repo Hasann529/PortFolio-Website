@@ -7,16 +7,32 @@
   font-family: "Poppins", sans-serif;
   scroll-behavior: smooth;
   color-scheme: dark;
-  max-width: 100vw;
+  
   
 }
+*::-webkit-scrollbar{
+   width: 0.6rem;
+   background: linear-gradient(180deg,black,#2e1c55,black);
+}
+ 
+*::-webkit-scrollbar-thumb{
+  border-radius: 6px;
+  background-clip: padding-box;
+  // border-right: 3px rgb(0, 0, 0) solid;
+ //  border-top: 3px rgb(0, 0, 0) solid;
+  // border-bottom: 3px rgb(0, 0, 0) solid;
+  background: #915eff;
+}
+
 .app {
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
 
 nav {
-  max-width: 100%;
+  width: 100%;
+  //max-width: 100%;
   height: 9vh;
   background-color: rgb(5, 5, 22);
   display: flex;
@@ -161,7 +177,7 @@ nav {
         }
         > :nth-child(2) {
           font-size: 1.35rem;
-          width: 400px;
+          width: 340px;
           font-weight: 500;
         }
       }
@@ -211,15 +227,15 @@ nav {
     cursor: pointer;
   }
 }
-.hero::before {
-  content: "";
-  position: absolute;
-  background-color: rgba(0, 0, 0, 0.18);
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
-}
+ .hero::before {
+   content: "";
+   position: absolute;
+   background-color: rgba(0, 0, 0, 0.18);
+   top: 0px;
+   right: 0px;
+   bottom: 0px;
+   left: 0px;
+ }
 
 @media screen and (max-width: 768px) {
   .hero {

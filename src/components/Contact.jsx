@@ -44,8 +44,8 @@ const Contact = () => {
     <div id="contact" className="contact">
       <StarsCanvas className="stars" />
       <motion.div
-        initial={{ opacity: 0, x: 100 }}
-        whileInView={{ opacity: 1, x: 0 }}
+        initial={{ opacity: 0, y: -100 }}
+        whileInView={{ opacity: 1, y:0 }}
         viewport={{ once: true }}
         transition={{ type: "tween", delay: 0.25, duration: 0.75 }}
       >
@@ -87,10 +87,10 @@ const Contact = () => {
         </form>
       </motion.div>
       <motion.div
-        initial={{ opacity: 0, x: -100 }}
-        whileInView={{ opacity: 1, x: 0 }}
+        initial={{ opacity: 0, y:-100 }}
+        whileInView={{ opacity: 1, y:0 }}
         viewport={{ once: true }}
-        transition={{ type: "tween", delay: 0.2, duration: 0.75 }}
+        transition={{ type: "tween", delay: 0.3, duration: 0.75 }}
       >
         <EarthCanvas />
       </motion.div>

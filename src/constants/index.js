@@ -102,27 +102,14 @@ import {
   ];
   
   const experiences = [
-    // {
-    //   id:1,
-    //   title: "UI Developer Intern",
-    //   company_name: "Tesla",
-    //   icon: tesla,
-    //   iconBg: "#E6DEDD",
-    //   date: "Jan 2021 - Feb 2022",
-    //   points: [
-    //     "Developing and maintaining web applications using React.js and other related technologies.",
-    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-    //     "Implementing responsive design and ensuring cross-browser compatibility.",
-    //     "Participating in code reviews and providing constructive feedback to other developers.",
-    //   ],
-    // },
+   
     {
       id:1,
       title: "Software Engineer",
       company_name: "LTIMindtree",
       icon: starbucks,
       iconBg: "#383E56",
-      date: "June 2021 - Feb 2023",
+      date: "June 2021 - May 2023",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -227,28 +214,7 @@ import {
       image: netflix,
       source_code_link: "https://github.com/Hasann529/Netflix-Clone",
     },
-    // {
-    //   id:4,
-    //   name: "Spotify Clone",
-    //   description:
-    //     "Built a Spotify Clone with SpotifyWebApi for Google Authentication and redux for state management",
-    //   tags: [
-    //     {
-    //       name: "react",
-    //       color: "#6C9BCF",
-    //     },
-    //     {
-    //       name: "redux",
-    //       color: "#5D9C59",
-    //     },
-    //     {
-    //       name: "spotifyWebApi",
-    //       color: "#E384FF",
-    //     },
-    //   ],
-    //   image: spotify,
-    //   source_code_link: "https://github.com/Hasann529/Spotify-Clone",
-    // }
+  
   ];
   
   export { services, technologies, experiences, testimonials, projects };
